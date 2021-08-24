@@ -239,7 +239,9 @@ mark {
 .container .row {
     margin-bottom: 0;
 }
-
+/*
+在这里修改顶部和底部的导航条颜色
+*/
 .bg-color {
     background-image: linear-gradient(to right, #eea8ff 0%, #e256e2 100%);
 }
