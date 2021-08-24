@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, 钟军的小黑板">
+    <meta name="keywords" content="contact, 钟军的小黑板">
     <meta name="description" content="发博客又不挣钱，交个朋友呗~">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | 钟军的小黑板</title>
+    <title>contact | 钟军的小黑板</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -307,7 +307,13 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/css/barrager.css">
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.barrager.js"></script>
+
+<div class="bg-cover pd-header about-cover">
     <div class="container">
     <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
@@ -355,85 +361,52 @@
     </div>
 </div>
 
-<main class="content">
-
-    
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/%E7%94%9F%E6%B4%BB/" title="生活: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="生活" style="background-color: #F9EBEA;">生活
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="搭建博客: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="搭建博客" style="background-color: #F5EEF8;">搭建博客
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/hexo/" title="hexo: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="hexo" style="background-color: #D5F5E3;">hexo
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/matery/" title="matery: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="matery" style="background-color: #E8F8F5;">matery
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
-<style type="text/css">
-    #tag-wordcloud {
-        width: 100%;
-        height: 300px;
+<style>
+    #send{
+        margin-bottom: 10px;
+        width: 49%;
+        background-color: #0ba360;
+    }
+    #clear{
+        margin-bottom: 10px;
+        width: 49%;
+        background-color: #e7c65c;
+    }
+    p{
+        text-align: center;
     }
 </style>
+<main class="content">
+    <div id="contact" class="container chip-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <i class="fas fa-comments"></i>&nbsp;&nbsp;留言板
+                </div>
+                
+            </div>
+            <!--valine评论弹幕-->
+            
+        </div>
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="tag-wordcloud" class="card-content"></div>
+        <!--其他评论card-->
+        <div class="card">
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        </div>
     </div>
-</div>
-
-<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
-<script type="text/javascript">
-    
-
-    $('#tag-wordcloud').jQCloud([{"text":"生活","weight":1,"link":"/tags/生活/"},{"text":"搭建博客","weight":1,"link":"/tags/搭建博客/"},{"text":"hexo","weight":1,"link":"/tags/hexo/"},{"text":"matery","weight":1,"link":"/tags/matery/"}], {
-        autoResize: true
-    });
-</script>
-
-    
-
 </main>
 
 
