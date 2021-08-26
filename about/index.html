@@ -65,6 +65,17 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/demo" class="waves-effect waves-light">
+      
+      <i class="fas fa-laptop-code" style="zoom: 0.6;"></i>
+      
+      <span>项目</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/tags" class="waves-effect waves-light">
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
@@ -162,6 +173,17 @@
 			    <i class="fa-fw fas fa-home"></i>
 			
 			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/demo" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-laptop-code"></i>
+			
+			项目
 		</a>
           
         </li>
@@ -422,7 +444,7 @@
 
                                 </div>
                                 <div class="title">钟军</div>
-                                <div class="career">Software Engineer</div>
+                                <div class="career">东华理工大学 资源勘查工程</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/JlexZhong" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -506,7 +528,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.</div>
+                <div class="introduction center-align" data-aos="fade-up">一位不专心搞地质的CS learner，目前研究计算机视觉和深度学习中。</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -1196,6 +1218,20 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+    
+    <!--动态线条背景-->
+    <script type="text/javascript"
+    color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+    </script>
+
+    <script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+        document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+    }
+    </script>
+        
 
 </body>
 

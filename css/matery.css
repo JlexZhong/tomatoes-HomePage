@@ -243,7 +243,8 @@ mark {
 在这里修改顶部和底部的导航条颜色
 */
 .bg-color {
-    background-image: linear-gradient(to right, #eea8ff 0%, #e256e2 100%);
+    background-image: linear-gradient(to right, #9d8ef3 0%, #5947bd 100%);
+    opacity: 0.7;  //透明效果 值范围 0~1，看情况自己修改
 }
 
 .text-color {
